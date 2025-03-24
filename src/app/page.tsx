@@ -4,8 +4,13 @@ import { Hero } from "./_components/hero";
 import { Services } from "./_components/services";
 import { Testimonials } from "./_components/testimonials";
 
+export const metadata = {
+  title: '4 patas', // O título da aba
+  description: 'Descrição do meu projeto',
+}
 
 export default function Home() {
+  
   return (
     <main>
       <Hero />
@@ -13,6 +18,7 @@ export default function Home() {
       <Services />
       <Testimonials />
       <Footer />
+
     </main>
   );
 }

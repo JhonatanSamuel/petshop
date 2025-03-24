@@ -6,6 +6,7 @@ import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
 
 
 
+
 export function About() {
     return (
 
